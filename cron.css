@@ -1,0 +1,32 @@
+ /* Configurações Globais */ 
+
+ body {
+     margin: 30%;
+     padding: auto;
+
+ }
+ 
+ #principal {
+  max-width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100px;
+  text-align: center;
+ }
+
+ h1 {
+     font-family: 'Courier New', Courier, monospace;
+    margin-top:  20px;
+ }
+
+ .green {
+     background-color: green;
+ }
+
+ .yellor {
+     background-color: yellow;
+ }
+
+ .red {
+     background-color: red;
+ }
