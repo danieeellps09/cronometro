@@ -1,32 +1,43 @@
  /* Configurações Globais */ 
 
- body {
-     margin: 30%;
-     padding: auto;
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; /* Fixa o tamanho da página em 100% e impede o scroll */
+}
 
- }
- 
- #principal {
-  max-width: 500px;
-  padding: 10px;
-  box-sizing: border-box;
-  width: 100px;
-  text-align: center;
- }
+#principal {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralizando */
+    padding: 10px;
+    text-align: center;
+}
 
- h1 {
-     font-family: 'Courier New', Courier, monospace;
+button {
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer; /* Ao passar o mouse em cima do botão (hover), o cursor vai mudar para "pointer" */
+}
+
+h1.counter {
+    font-family: 'Courier New', Courier, monospace;
     margin-top:  20px;
- }
+}
 
- .green {
-     background-color: green;
- }
+.green {
+    background-color: green;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
 
- .yellor {
-     background-color: yellow;
- }
+.yellor {
+    background-color: yellow;
+}
 
- .red {
-     background-color: red;
- }
+.red {
+    background-color: red;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
