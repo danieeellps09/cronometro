@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 
+    <link rel="stylesheet" href="cron.css">
 </head>
 <body>
     
 
 <div id="principal">
- <button  onclick="start();"class="green">Iniciar</button>
-<button onclick="pause();"class="yellow"> Pausar </button>
-<button onclick="stop();"class="red" > Parar </button>
-<h1 class="counter" > 00:00:00  </h1>
-</div> 
+    <div id="buttons">
+        <button id="start-button" class="green">Iniciar</button>
+        <button id="pause-button" class="yellow"> Pausar </button>
+        <button id="stop-button" class="red" > Parar </button>
+    </div>    
+    <h1 class="counter"> 00:00:00 </h1>
+</div>
 
 <script src="cron.js"></script>
 
